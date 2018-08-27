@@ -4,6 +4,10 @@ class Module_Test:
         Number3 = Number1 + Number2
         return Number3
 
+    def Subtract_Numbers(Number1, Number2):
+        Number3 = Number1 - Number2
+        return (Number3)
+
 if __name__ == '__main__':
     print("Hej med dig !!!")
 

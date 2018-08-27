@@ -18,5 +18,11 @@ class TestAdd_Numbers(unittest.TestCase):
         var3 = Module_Test.Add_Numbers(78, 22)
         self.assertEqual(100, var3)
 
+    def test_Subtract_Numbers(self):
+        var3 = Main.Module_Test.Subtract_Numbers(32, 44)
+        self.assertEqual(-12, var3)
+        var3 = Module_Test.Subtract_Numbers(78, 22)
+        self.assertEqual(56, var3)
+
 if __name__ == '__main__':
     unittest.main()
